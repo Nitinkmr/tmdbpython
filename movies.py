@@ -20,7 +20,7 @@ def get_movie_content():
 				}
 			}
 
-	connection = urllib.urlopen("https://api.themoviedb.org/3/movie/popular?api_key=dc2c5f4a99f94c7e22a32a35bf23e7f7&language=en-US")
+	connection = urllib.urlopen("https://api.themoviedb.org/3/movie/popular?api_key=YOUR_API_KEY&language=en-US")
 	index = 0;
 	output = connection.read()
 	
